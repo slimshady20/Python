@@ -21,12 +21,13 @@ if __name__ == '__main__':
             result = app.search(input('입력할 이름 검색\n'))
             print(str(result))
         if menu == '3':
-            result= app.list()
+            result = app.list()
+            # temp =[]
+            # for i in result:
+            #     temp.append(i)
+
             print('\n'.join(str(i) for i in result))
         if menu == '4':
-            pass
-        if menu == '4':
-            pass
-        if menu == '0':
-            pass
+            app.remove(input('삭제할 이름 검색\n'))
+
 

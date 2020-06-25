@@ -21,5 +21,5 @@ class Controller:
     def list(self):
         return self._service.get_contacts()
 
-    def remove(self):
-        pass
+    def remove(self, name):
+        return self._service.del_contact(name)
