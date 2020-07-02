@@ -1,6 +1,5 @@
-from contacts import service
-from contacts.model import Model
-from contacts.service import Service
+from model import Model
+from service import Service
 
 
 class Controller:

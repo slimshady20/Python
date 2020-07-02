@@ -1,4 +1,4 @@
-from contacts.controller import Controller
+from controller import Controller
 if __name__ == '__main__':
     def print_menu():
         print('0. Exit')

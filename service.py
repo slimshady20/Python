@@ -1,6 +1,3 @@
-from contacts.model import Model
-
-
 class Service:
     def __init__(self):
         self._contacts = []
